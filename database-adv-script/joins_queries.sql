@@ -9,6 +9,7 @@
 -- LEFT JOIN Review ON Property.property_id = Review.property_id
 -- ORDER BY Property.property_id;
 
+-- FULL OUTER JOIN simulation using UNION
 
 
 SELECT User.user_id, User.first_name, User.last_name, User.email, 
