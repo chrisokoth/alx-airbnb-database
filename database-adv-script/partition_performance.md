@@ -1,0 +1,5 @@
+Improvements Observed:
+Reduced Query Time: Partitioning allowed the database to only scan the relevant partitions for queries filtering by date. This significantly reduced the number of rows processed, leading to faster query execution times.
+Efficient Storage: The partitioned table is more optimized for managing large datasets over time. For example, querying for bookings in the past year is now much faster than scanning the entire table.
+Partition Pruning: The database uses partition pruning, which means that only the relevant partitions are queried, further improving performance by eliminating unnecessary data scans.
+Scalability: As the number of records grows, partitioning ensures that queries remain efficient and scalable. New partitions can be added as needed without major modifications to the existing table structure.
