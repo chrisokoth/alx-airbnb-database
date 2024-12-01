@@ -1,0 +1,2 @@
+INNER JOIN to retrieve all bookings and the respective users who made those bookings:
+This query retrieves all the bookings along with the users who made those bookings, excluding any bookings that do not have a user.
